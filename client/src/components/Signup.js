@@ -4,8 +4,6 @@ import * as yup from "yup";
 export const SignupForm = () => {
   const [customers, setCustomers] = useState([{}]);
   const [refreshPage, setRefreshPage] = useState(false);
-  // Pass the useFormik() hook initial form values and a submit function that will
-  // be called when the form is submitted
 
   useEffect(() => {
     console.log("FETCH! ");
